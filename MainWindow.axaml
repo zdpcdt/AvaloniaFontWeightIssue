@@ -1,0 +1,56 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaFontWeightIssue.MainWindow"
+        Title="AvaloniaFontWeightIssue">
+    <StackPanel>
+        <StackPanel Height="80">
+            <TextBlock Text="First" FontWeight="700" />
+            <Label Content="Second" FontWeight="800" />
+            <Button Content="Third" FontWeight="900" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel>
+                <Label Content="Label" FontWeight="100" />
+                <Label Content="Label" FontWeight="200" />
+                <Label Content="Label" FontWeight="300" />
+                <Label Content="Label" FontWeight="350" />
+                <Label Content="Label" FontWeight="400" />
+                <Label Content="Label" FontWeight="500" />
+                <Label Content="Label" FontWeight="600" />
+                <Label Content="Label" FontWeight="700" />
+                <Label Content="Label" FontWeight="800" Background="Gold" />
+                <Label Content="Label" FontWeight="900" />
+                <Label Content="Label" FontWeight="950" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="TextBlock" FontWeight="100" />
+                <TextBlock Text="TextBlock" FontWeight="200" />
+                <TextBlock Text="TextBlock" FontWeight="300" />
+                <TextBlock Text="TextBlock" FontWeight="350" />
+                <TextBlock Text="TextBlock" FontWeight="400" />
+                <TextBlock Text="TextBlock" FontWeight="500" />
+                <TextBlock Text="TextBlock" FontWeight="600" />
+                <TextBlock Text="TextBlock" FontWeight="700" />
+                <TextBlock Text="TextBlock" FontWeight="800" Background="Gold" />
+                <TextBlock Text="TextBlock" FontWeight="900" />
+                <TextBlock Text="TextBlock" FontWeight="950" />
+            </StackPanel>
+            <StackPanel>
+                <Button Content="Button" FontWeight="100" />
+                <Button Content="Button" FontWeight="200" />
+                <Button Content="Button" FontWeight="300" />
+                <Button Content="Button" FontWeight="350" />
+                <Button Content="Button" FontWeight="400" />
+                <Button Content="Button" FontWeight="500" />
+                <Button Content="Button" FontWeight="600" />
+                <Button Content="Button" FontWeight="700" />
+                <Button Content="Button" FontWeight="800" BorderBrush="Gold" BorderThickness="2" />
+                <Button Content="Button" FontWeight="900" />
+                <Button Content="Button" FontWeight="950" />
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
